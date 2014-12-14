@@ -1,5 +1,4 @@
-en:
-  # Text direction: Left-to-Right (ltr) or Right-to-Left (rtl)
+en-PI:
   direction: ltr
   date:
     formats:
@@ -10,11 +9,11 @@ en:
       short: "%b %d"
       long: "%B %d, %Y"
 
-    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+    day_names: [Sundee, Moon day, Tuesday, Wednesday, Tharrrsday, Frrriday, Rum hangover day]
     abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
 
     # Don't forget the nil at the beginning; there's no such thing as a 0th month
-    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
+    month_names: [~, Januarrry, Februarrry, Marrrch, Arrrpril, Mayhaps, "Merry month o' showers", July, Arrrgust, Septembarrr, Octobarrr, Novembarrr, Decembarrr]
     abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
     # Used in date_select and datime_select.
     order:
@@ -47,13 +46,13 @@ en:
         one:   "1 minute"
         other: "%{count} minutes"
       about_x_hours:
-        one:   "about 1 hour"
-        other: "about %{count} hours"
+        one:   "about 1 turns of hourglass"
+        other: "about %{count} turns of hourglass"
       x_hours:
-        one:   "1 hour"
-        other: "%{count} hours"
+        one:   "1 turn o' hourglass"
+        other: "%{count} turns o' hourglass"
       x_days:
-        one:   "1 day"
+        one:   "1 sunrise"
         other: "%{count} days"
       about_x_months:
         one:   "about 1 month"
@@ -62,14 +61,14 @@ en:
         one:   "1 month"
         other: "%{count} months"
       about_x_years:
-        one:   "about 1 year"
-        other: "about %{count} years"
+        one:   "about 1 yarrr"
+        other: "about %{count} yarrrs"
       over_x_years:
-        one:   "over 1 year"
-        other: "over %{count} years"
+        one:   "over 1 yarrr"
+        other: "over %{count} yarrrs"
       almost_x_years:
-        one:   "almost 1 year"
-        other: "almost %{count} years"
+        one:   "almost 1 yarrr"
+        other: "almost %{count} yarrrs"
 
   number:
     format:
@@ -131,27 +130,27 @@ en:
         cant_link_an_issue_with_a_descendant: "An issue cannot be linked to one of its subtasks"
         earlier_than_minimum_start_date: "cannot be earlier than %{date} because of preceding issues"
 
-  actionview_instancetag_blank_option: Please select
+  actionview_instancetag_blank_option: Make yarr choice
 
-  general_text_No: 'No'
-  general_text_Yes: 'Yes'
-  general_text_no: 'no'
-  general_text_yes: 'yes'
-  general_lang_name: 'English'
+  general_text_No: 'Nay'
+  general_text_Yes: "Aye, cap'n"
+  general_text_no: 'nay'
+  general_text_yes: 'aye'
+  general_lang_name: 'English (Pirate)'
   general_csv_separator: ','
   general_csv_decimal_separator: '.'
   general_csv_encoding: ISO-8859-1
   general_pdf_fontname: freesans
   general_first_day_of_week: '7'
 
-  notice_account_updated: Account was successfully updated.
-  notice_account_invalid_creditentials: Invalid user or password
-  notice_account_password_updated: Password was successfully updated.
-  notice_account_wrong_password: Wrong password
+  notice_account_updated: Yarr new ship is ready to sail.
+  notice_account_invalid_creditentials: Scurvy codeword or pirate name
+  notice_account_password_updated: New codeword has set sail.
+  notice_account_wrong_password: Scurvy codeword
   notice_account_register_done: Account was successfully created. An email containing the instructions to activate your account was sent to %{email}.
-  notice_account_unknown_email: Unknown user.
+  notice_account_unknown_email: "Tis ain't no pirate. Just some landlubber we don't know."
   notice_account_not_activated_yet: You haven't activated your account yet. If you want to receive a new activation email, please <a href="%{url}">click this link</a>.
-  notice_account_locked: Your account is locked.
+  notice_account_locked: Yarr ship has run aground.
   notice_can_t_change_password: This account uses an external authentication source. Impossible to change the password.
   notice_account_lost_email_sent: An email with instructions to choose a new password has been sent to you.
   notice_account_activated: Your account has been activated. You can now log in.
@@ -220,20 +219,20 @@ en:
   mail_subject_wiki_content_updated: "'%{id}' wiki page has been updated"
   mail_body_wiki_content_updated: "The '%{id}' wiki page has been updated by %{author}."
 
-  field_name: Name
-  field_description: Description
+  field_name: Pirate name
+  field_description: "Rumours 'bout ya"
   field_summary: Summary
-  field_is_required: Required
+  field_is_required: Requested by Netpune himself
   field_firstname: First name
   field_lastname: Last name
-  field_mail: Email
-  field_filename: File
+  field_mail: Electric parrot
+  field_filename: Treasure
   field_filesize: Size
   field_downloads: Downloads
   field_author: Author
   field_created_on: Created
   field_updated_on: Updated
-  field_closed_on: Closed
+  field_closed_on: Locked
   field_field_format: Format
   field_is_for_all: For all projects
   field_possible_values: Possible values
@@ -242,9 +241,9 @@ en:
   field_max_length: Maximum length
   field_value: Value
   field_category: Category
-  field_title: Title
+  field_title: Colours
   field_project: Project
-  field_issue: Issue
+  field_issue: Grumbling
   field_status: Status
   field_notes: Notes
   field_is_closed: Issue closed
@@ -252,21 +251,21 @@ en:
   field_tracker: Tracker
   field_subject: Subject
   field_due_date: Due date
-  field_assigned_to: Assignee
-  field_priority: Priority
+  field_assigned_to: Deckswabber
+  field_priority: Rank
   field_fixed_version: Target version
-  field_user: User
+  field_user: Pirate
   field_principal: Principal
   field_role: Role
-  field_homepage: Homepage
+  field_homepage: Bows
   field_is_public: Public
   field_parent: Subproject of
   field_is_in_roadmap: Issues displayed in roadmap
-  field_login: Login
-  field_mail_notification: Email notifications
-  field_admin: Administrator
+  field_login: Pirate name
+  field_mail_notification: "'Lectric parrot blabberings"
+  field_admin: Captain
   field_last_login_on: Last connection
-  field_language: Language
+  field_language: Tongue
   field_effective_date: Date
   field_password: Password
   field_new_password: New password
@@ -275,7 +274,7 @@ en:
   field_type: Type
   field_host: Host
   field_port: Port
-  field_account: Account
+  field_account: Ship
   field_base_dn: Base DN
   field_attr_login: Login attribute
   field_attr_firstname: Firstname attribute
@@ -290,8 +289,8 @@ en:
   field_url: URL
   field_start_page: Start page
   field_subproject: Subproject
-  field_hours: Hours
-  field_activity: Activity
+  field_hours: "Turns o' hourglass"
+  field_activity: Log o' adventure
   field_spent_on: Date
   field_identifier: Identifier
   field_is_filter: Used as a filter
@@ -299,27 +298,27 @@ en:
   field_delay: Delay
   field_assignable: Issues can be assigned to this role
   field_redirect_existing_links: Redirect existing links
-  field_estimated_hours: Estimated time
+  field_estimated_hours: Time guess
   field_column_names: Columns
-  field_time_entries: Log time
+  field_time_entries: Scribble entry in log
   field_time_zone: Time zone
   field_searchable: Searchable
   field_default_value: Default value
   field_comments_sorting: Display comments
   field_parent_title: Parent page
   field_editable: Editable
-  field_watcher: Watcher
+  field_watcher: Matey in crow's nest
   field_identity_url: OpenID URL
   field_content: Content
   field_group_by: Group results by
   field_sharing: Sharing
   field_parent_issue: Parent task
-  field_member_of_group: "Assignee's group"
-  field_assigned_to_role: "Assignee's role"
-  field_text: Text field
-  field_visible: Visible
+  field_member_of_group: "Deckswabber's crew"
+  field_assigned_to_role: "Deckswabber's rank"
+  field_text: Sumthin' you can scribble on
+  field_visible: Revealed
   field_warn_on_leaving_unsaved: "Warn me when leaving a page with unsaved text"
-  field_issues_visibility: Issues visibility
+  field_issues_visibility: Who can hear grumbling
   field_is_private: Private
   field_commit_logs_encoding: Commit messages encoding
   field_scm_path_encoding: Path encoding
@@ -338,13 +337,13 @@ en:
   field_generate_password: Generate password
   field_must_change_passwd: Must change password at next logon
 
-  setting_app_title: Application title
-  setting_app_subtitle: Application subtitle
+  setting_app_title: Ship's name
+  setting_app_subtitle: Ship's nickname
   setting_welcome_text: Welcome text
-  setting_default_language: Default language
+  setting_default_language: Common tongue
   setting_login_required: Authentication required
   setting_self_registration: Self-registration
-  setting_attachment_max_size: Maximum attachment size
+  setting_attachment_max_size: Booty's locker size
   setting_issues_export_limit: Issues export limit
   setting_mail_from: Emission email address
   setting_bcc_recipients: Blind carbon copy recipients (bcc)
@@ -411,18 +410,18 @@ en:
   setting_force_default_language_for_anonymous: Force default language for anonymous users
   setting_force_default_language_for_loggedin: Force default language for logged-in users
 
-  permission_add_project: Create project
-  permission_add_subprojects: Create subprojects
-  permission_edit_project: Edit project
-  permission_close_project: Close / reopen the project
+  permission_add_project: Plan new voyage
+  permission_add_subprojects: Plan new leg
+  permission_edit_project: Change voyage's plan
+  permission_close_project: Condemn or resurrect voyage
   permission_select_project_modules: Select project modules
-  permission_manage_members: Manage members
-  permission_manage_project_activities: Manage project activities
+  permission_manage_members: Mangle crew
+  permission_manage_project_activities: Mangle voyages landmarks
   permission_manage_versions: Manage versions
   permission_manage_categories: Manage issue categories
-  permission_view_issues: View Issues
-  permission_add_issues: Add issues
-  permission_edit_issues: Edit issues
+  permission_view_issues: See grumblings
+  permission_add_issues: Spread grumblings
+  permission_edit_issues: Change grumblings
   permission_manage_issue_relations: Manage issue relations
   permission_set_issues_private: Set issues public or private
   permission_set_own_issues_private: Set own issues public or private
@@ -486,50 +485,50 @@ en:
   project_module_calendar: Calendar
   project_module_gantt: Gantt
 
-  label_user: User
-  label_user_plural: Users
-  label_user_new: New user
-  label_user_anonymous: Anonymous
-  label_project: Project
-  label_project_new: New project
-  label_project_plural: Projects
+  label_user: Pirate
+  label_user_plural: Pirates
+  label_user_new: Landlubber
+  label_user_anonymous: Scurvy landlubber
+  label_project: Voyage
+  label_project_new: New voyage
+  label_project_plural: Voyages
   label_x_projects:
-    zero:  no projects
-    one:   1 project
-    other: "%{count} projects"
-  label_project_all: All Projects
-  label_project_latest: Latest projects
-  label_issue: Issue
-  label_issue_new: New issue
-  label_issue_plural: Issues
-  label_issue_view_all: View all issues
-  label_issues_by: "Issues by %{value}"
-  label_issue_added: Issue added
-  label_issue_updated: Issue updated
+    zero:  no voyages
+    one:   a single voyage
+    other: "%{count} voyages"
+  label_project_all: All Voyages
+  label_project_latest: Fresh voyages
+  label_issue: Grumbling
+  label_issue_new: Fresh grumbling
+  label_issue_plural: Grumblings
+  label_issue_view_all: Cast yer eye upon all grubblings
+  label_issues_by: "Grumblings of %{value}"
+  label_issue_added: Grumbled
+  label_issue_updated: Changed grumblings
   label_issue_note_added: Note added
   label_issue_status_updated: Status updated
-  label_issue_assigned_to_updated: Assignee updated
+  label_issue_assigned_to_updated: Changed weckwasher
   label_issue_priority_updated: Priority updated
-  label_document: Document
-  label_document_new: New document
-  label_document_plural: Documents
-  label_document_added: Document added
-  label_role: Role
-  label_role_plural: Roles
-  label_role_new: New role
-  label_role_and_permissions: Roles and permissions
-  label_role_anonymous: Anonymous
-  label_role_non_member: Non member
-  label_member: Member
-  label_member_new: New member
-  label_member_plural: Members
+  label_document: Parchment
+  label_document_new: Fresh parchment
+  label_document_plural: Parchments
+  label_document_added: New parchment in lootbox
+  label_role: Rank
+  label_role_plural: Ranks
+  label_role_new: Fresh rank
+  label_role_and_permissions: Ranks and duties
+  label_role_anonymous: Landlubber
+  label_role_non_member: Buccaneer
+  label_member: Deck hand
+  label_member_new: Fresh deck hand
+  label_member_plural: Deck hands
   label_tracker: Tracker
   label_tracker_plural: Trackers
   label_tracker_new: New tracker
   label_workflow: Workflow
-  label_issue_status: Issue status
-  label_issue_status_plural: Issue statuses
-  label_issue_status_new: New status
+  label_issue_status: State of grumbling
+  label_issue_status_plural: States of grumbling
+  label_issue_status_new: New state
   label_issue_category: Issue category
   label_issue_category_plural: Issue categories
   label_issue_category_new: New category
@@ -538,74 +537,74 @@ en:
   label_custom_field_new: New custom field
   label_enumerations: Enumerations
   label_enumeration_new: New value
-  label_information: Information
-  label_information_plural: Information
-  label_please_login: Please log in
-  label_register: Register
-  label_login_with_open_id_option: or login with OpenID
-  label_password_lost: Lost password
-  label_home: Home
-  label_my_page: My page
-  label_my_account: My account
-  label_my_projects: My projects
+  label_information: Gossip
+  label_information_plural: Gossips
+  label_please_login: Get on board
+  label_register: Enroll
+  label_login_with_open_id_option: or get on deck using OpenID magic
+  label_password_lost: Drowned codeword
+  label_home: Port of call
+  label_my_page: My manifest
+  label_my_account: My berth
+  label_my_projects: My voyages
   label_my_page_block: My page block
-  label_administration: Administration
-  label_login: Sign in
-  label_logout: Sign out
+  label_administration: Wardroom
+  label_login: Get on board
+  label_logout: Walk the plank
   label_help: Help
   label_reported_issues: Reported issues
   label_assigned_to_me_issues: Issues assigned to me
   label_last_login: Last connection
-  label_registered_on: Registered on
-  label_activity: Activity
-  label_overall_activity: Overall activity
-  label_user_activity: "%{value}'s activity"
-  label_new: New
-  label_logged_as: Logged in as
+  label_registered_on: Enrolled on
+  label_activity: Log o' adventures
+  label_overall_activity: All adventures
+  label_user_activity: "%{value}'s log o' adventures"
+  label_new: Fresh
+  label_logged_as: Known on board as
   label_environment: Environment
   label_authentication: Authentication
   label_auth_source: Authentication mode
   label_auth_source_new: New authentication mode
   label_auth_source_plural: Authentication modes
-  label_subproject_plural: Subprojects
-  label_subproject_new: New subproject
-  label_and_its_subprojects: "%{value} and its subprojects"
+  label_subproject_plural: Voyage's legs
+  label_subproject_new: Fresh leg
+  label_and_its_subprojects: "%{value} and its legs"
   label_min_max_length: Min - Max length
   label_list: List
   label_date: Date
   label_integer: Integer
   label_float: Float
   label_boolean: Boolean
-  label_string: Text
-  label_text: Long text
+  label_string: "Scribblin'"
+  label_text: "Long scribblin'"
   label_attribute: Attribute
   label_attribute_plural: Attributes
   label_no_data: No data to display
   label_change_status: Change status
-  label_history: History
-  label_attachment: File
-  label_attachment_new: New file
-  label_attachment_delete: Delete file
-  label_attachment_plural: Files
-  label_file_added: File added
+  label_history: Tales of old
+  label_attachment: Treasure
+  label_attachment_new: New treasue
+  label_attachment_delete: Bury treasure
+  label_attachment_plural: Treasures
+  label_file_added: New treasure in chest
   label_report: Report
   label_report_plural: Reports
-  label_news: News
-  label_news_new: Add news
-  label_news_plural: News
-  label_news_latest: Latest news
-  label_news_view_all: View all news
-  label_news_added: News added
-  label_news_comment_added: Comment added to a news
-  label_settings: Settings
-  label_overview: Overview
+  label_news: Gossip
+  label_news_new: Spread a gossip
+  label_news_plural: Gossips
+  label_news_latest: Fresh gossips
+  label_news_view_all: All the gossips
+  label_news_added: Gossip spread
+  label_news_comment_added: Someone blabbered 'bout gossip
+  label_settings: "Riggin'"
+  label_overview: Big picture
   label_version: Version
   label_version_new: New version
   label_version_plural: Versions
   label_close_versions: Close completed versions
   label_confirmation: Confirmation
   label_export_to: 'Also available in:'
-  label_read: Read...
+  label_read: Cast yarr deadlight...
   label_public_projects: Public projects
   label_open_issues: open
   label_open_issues_plural: open
@@ -636,28 +635,28 @@ en:
   label_any: any
   label_none: none
   label_nobody: nobody
-  label_next: Next
+  label_next: Avast!
   label_previous: Previous
   label_used_by: Used by
   label_details: Details
   label_add_note: Add a note
   label_per_page: Per page
-  label_calendar: Calendar
+  label_calendar: Calendarrr
   label_months_from: months from
   label_gantt: Gantt
   label_internal: Internal
   label_last_changes: "last %{count} changes"
   label_change_view_all: View all changes
   label_personalize_page: Personalize this page
-  label_comment: Comment
-  label_comment_plural: Comments
+  label_comment: Blabbering
+  label_comment_plural: Blabberings
   label_x_comments:
-    zero: no comments
-    one: 1 comment
-    other: "%{count} comments"
-  label_comment_add: Add a comment
-  label_comment_added: Comment added
-  label_comment_delete: Delete comments
+    zero: no blabberings
+    one: 1 blabbering
+    other: "%{count} blabberings"
+  label_comment_add: Blabber
+  label_comment_added: Blabbered
+  label_comment_delete: Withdraw blabbering
   label_query: Custom query
   label_query_plural: Custom queries
   label_query_new: New query
@@ -674,9 +673,9 @@ en:
   label_less_or_equal: '<='
   label_between: between
   label_in: in
-  label_today: today
+  label_today: tis day
   label_all_time: all time
-  label_yesterday: yesterday
+  label_yesterday: one sunrise ago
   label_this_week: this week
   label_last_week: last week
   label_last_n_weeks: "last %{count} weeks"
@@ -722,7 +721,7 @@ en:
   label_roadmap_due_in: "Due in %{value}"
   label_roadmap_overdue: "%{value} late"
   label_roadmap_no_issues: No issues for this version
-  label_search: Search
+  label_search: Scour
   label_result_plural: Results
   label_all_words: All words
   label_wiki: Wiki
@@ -920,13 +919,13 @@ en:
   label_unknown_plugin: Unknown plugin
 
   button_login: Login
-  button_submit: Submit
-  button_save: Save
+  button_submit: Arrr
+  button_save: Arrr
   button_check_all: Check all
   button_uncheck_all: Uncheck all
   button_collapse_all: Collapse all
   button_expand_all: Expand all
-  button_delete: Delete
+  button_delete: Condemn
   button_create: Create
   button_create_and_continue: Create and continue
   button_test: Test
@@ -949,14 +948,14 @@ en:
   button_sort: Sort
   button_log_time: Log time
   button_rollback: Rollback to this version
-  button_watch: Watch
-  button_unwatch: Unwatch
+  button_watch: Cast yarr deadlight
+  button_unwatch: Care not for such triffles
   button_reply: Reply
   button_archive: Archive
   button_unarchive: Unarchive
   button_reset: Reset
   button_rename: Rename
-  button_change_password: Change password
+  button_change_password: Change codeword
   button_copy: Copy
   button_copy_and_follow: Copy and follow
   button_annotate: Annotate
