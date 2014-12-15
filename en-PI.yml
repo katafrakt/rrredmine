@@ -32,19 +32,19 @@ en-PI:
 
   datetime:
     distance_in_words:
-      half_a_minute: "half a minute"
+      half_a_minute: "few grains of sand"
       less_than_x_seconds:
-        one:   "less than 1 second"
-        other: "less than %{count} seconds"
+        one:   "less than a grain of sand ago"
+        other: "less than %{count} grains of sand ago"
       x_seconds:
-        one:   "1 second"
-        other: "%{count} seconds"
+        one:   "a grain of sand"
+        other: "%{count} grains of sand"
       less_than_x_minutes:
-        one:   "less than a minute"
-        other: "less than %{count} minutes"
+        one:   "less than a shot of rum"
+        other: "less than %{count} shots of rum"
       x_minutes:
-        one:   "1 minute"
-        other: "%{count} minutes"
+        one:   "1 shot of rum"
+        other: "%{count} shots of rum"
       about_x_hours:
         one:   "about 1 turns of hourglass"
         other: "about %{count} turns of hourglass"
@@ -55,11 +55,11 @@ en-PI:
         one:   "1 sunrise"
         other: "%{count} days"
       about_x_months:
-        one:   "about 1 month"
-        other: "about %{count} months"
+        one:   "about 1 moon cycle"
+        other: "about %{count} moon cycles"
       x_months:
-        one:   "1 month"
-        other: "%{count} months"
+        one:   "1 moon cycle"
+        other: "%{count} moon cycles"
       about_x_years:
         one:   "about 1 yarrr"
         other: "about %{count} yarrrs"
@@ -101,11 +101,11 @@ en-PI:
     errors:
       template:
         header:
-          one:    "1 error prohibited this %{model} from being saved"
-          other:  "%{count} errors prohibited this %{model} from being saved"
+          one:    "1 scurvy fault stopped this %{model} from setting sail"
+          other:  "%{count} scurvy faults stopped this %{model} from setting sail"
       messages:
-        inclusion: "is not included in the list"
-        exclusion: "is reserved"
+        inclusion: "is not among allowed crew mateys"
+        exclusion: "belongs to Neptune himself"
         invalid: "is invalid"
         confirmation: "doesn't match confirmation"
         accepted: "must be accepted"
@@ -158,9 +158,9 @@ en-PI:
   notice_successful_update: Successful update.
   notice_successful_delete: Successful deletion.
   notice_successful_connection: Successful connection.
-  notice_file_not_found: The page you were trying to access doesn't exist or has been removed.
+  notice_file_not_found: That ship has sunk and fish feast upon it.
   notice_locking_conflict: Data has been updated by another user.
-  notice_not_authorized: You are not authorized to access this page.
+  notice_not_authorized: Yarr scurvy self cannot drop anchor here!
   notice_not_authorized_archived_project: The project you're trying to access has been archived.
   notice_email_sent: "An email was sent to %{value}"
   notice_email_error: "An error occurred while sending mail (%{value})"
@@ -652,7 +652,7 @@ en-PI:
   label_comment_plural: Blabberings
   label_x_comments:
     zero: no blabberings
-    one: 1 blabbering
+    one: a single blabbering
     other: "%{count} blabberings"
   label_comment_add: Blabber
   label_comment_added: Blabbered
@@ -686,7 +686,7 @@ en-PI:
   label_date_range: Date range
   label_less_than_ago: less than days ago
   label_more_than_ago: more than days ago
-  label_ago: days ago
+  label_ago: sunrises ago
   label_contains: contains
   label_not_contains: doesn't contain
   label_any_issues_in_project: any issues in project
