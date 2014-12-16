@@ -220,7 +220,7 @@ en-PI:
   mail_body_wiki_content_updated: "The '%{id}' wiki page has been updated by %{author}."
 
   field_name: Pirate name
-  field_description: "Rumours 'bout ya"
+  field_description: "Rumours"
   field_summary: Summary
   field_is_required: Requested by Netpune himself
   field_firstname: First name
@@ -839,7 +839,7 @@ en-PI:
   label_planning: Planning
   label_incoming_emails: Incoming emails
   label_generate_key: Generate a key
-  label_issue_watchers: Watchers
+  label_issue_watchers: Scurvy dogs on deck
   label_example: Example
   label_display: Display
   label_sort: Sort
@@ -932,25 +932,25 @@ en-PI:
   button_edit: Edit
   button_edit_associated_wikipage: "Edit associated Wiki page: %{page_title}"
   button_add: Add
-  button_change: Change
+  button_change: Amend
   button_apply: Apply
   button_clear: Clear
   button_lock: Lock
   button_unlock: Unlock
-  button_download: Download
+  button_download: Open treasure chest
   button_list: List
-  button_view: View
+  button_view: Cast yer eye upon it
   button_move: Move
   button_move_and_follow: Move and follow
-  button_back: Back
-  button_cancel: Cancel
-  button_activate: Activate
+  button_back: To the stern
+  button_cancel: Keelhaul
+  button_activate: Hoist the colours
   button_sort: Sort
-  button_log_time: Log time
+  button_log_time: Scribble in time log
   button_rollback: Rollback to this version
   button_watch: Cast yarr deadlight
   button_unwatch: Care not for such triffles
-  button_reply: Reply
+  button_reply: Retort
   button_archive: Archive
   button_unarchive: Unarchive
   button_reset: Reset
@@ -963,8 +963,8 @@ en-PI:
   button_configure: Configure
   button_quote: Quote
   button_duplicate: Duplicate
-  button_show: Show
-  button_hide: Hide
+  button_show: Reveal
+  button_hide: Bury
   button_edit_section: Edit this section
   button_export: Export
   button_delete_my_account: Delete my account
@@ -1069,12 +1069,12 @@ en-PI:
   default_tracker_bug: Bug
   default_tracker_feature: Feature
   default_tracker_support: Support
-  default_issue_status_new: New
-  default_issue_status_in_progress: In Progress
-  default_issue_status_resolved: Resolved
+  default_issue_status_new: Fresh booty
+  default_issue_status_in_progress: Sailing
+  default_issue_status_resolved: Safe in the port
   default_issue_status_feedback: Feedback
-  default_issue_status_closed: Closed
-  default_issue_status_rejected: Rejected
+  default_issue_status_closed: Marooned
+  default_issue_status_rejected: Drowned
   default_doc_category_user: User documentation
   default_doc_category_tech: Technical documentation
   default_priority_low: Low
