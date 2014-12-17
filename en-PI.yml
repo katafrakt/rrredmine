@@ -560,7 +560,7 @@ en-PI:
   label_overall_activity: All adventures
   label_user_activity: "%{value}'s log o' adventures"
   label_new: Fresh
-  label_logged_as: Known on board as
+  label_logged_as: Swabbing deck as
   label_environment: Environment
   label_authentication: Authentication
   label_auth_source: Authentication mode
@@ -920,7 +920,7 @@ en-PI:
 
   button_login: Login
   button_submit: Arrr
-  button_save: Arrr
+  button_save: Bury treasure
   button_check_all: Check all
   button_uncheck_all: Uncheck all
   button_collapse_all: Collapse all
